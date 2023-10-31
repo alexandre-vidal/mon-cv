@@ -1,28 +1,47 @@
 body {
     background-color: rgb(104, 3, 109);
   }
+
   h1 {
     color: rgb(169, 169, 236);
   }
+
+  h2 {
+    color: rgb(101, 101, 210);
+  }
+
+  h3 {
+    color: rgb(60, 60, 216);
+  }
+
   p {
     color: rgb(216, 155, 155);
   }
+
    /* unvisited link */
   a:link {
     color: red;
+    text-decoration: none;
   }
 
   /* visited link */
   a:visited {
     color: rgb(254, 76, 239);
+    text-decoration: none;
   }
 
   /* mouse over link */
   a:hover {
     color: rgb(255, 2, 128);
+    text-decoration: underline;
   }
 
   /* selected link */
   a:active {
     color: blue;
+    text-decoration: underline;
   } 
+
+  li {
+    color: rgb(219, 223, 139);
+  }
