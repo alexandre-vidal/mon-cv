@@ -78,10 +78,16 @@ body {
     width: 100%;
   }
 
-  table,
-td {
-  border: 3px solid #000000;
-}
+  table {
+    border: 3px solid black;
+    table-layout: fixed;
+    width: 600px;
+  }
+
+  td {
+    border: 2px solid black;
+    overflow: hidden;
+  }
 
 tfoot {
   background-color: #000000;
