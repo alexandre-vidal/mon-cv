@@ -7,87 +7,104 @@ body {
   margin-right: 20%;
 }
 
-  h1 {
-    font-size: 600%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    text-align: center;
-    }
+img {
+  filter: drop-shadow(#000000 2px 2px 2px);
+}
 
-    .big-shadow {
-      background: #868686;
-      background: linear-gradient(to bottom right, #6e3d03 1%, #dc851b 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      filter: drop-shadow(4px 4px 2px #333);
-    }
+.big-shadow {
+  font-size: 600%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  background: #868686;
+  background: linear-gradient(to bottom right, #6e3d03 1%, #dc851b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(4px 4px 2px #333);
+}
 
-    .shadow {
-      text-shadow:1px 1px 1px #5d5d5d ;
-    }
 
-  h2 {
-    color: rgb(0, 0, 0);
-    font-weight:600 ;
-    font-size: 175% ;
-    text-decoration: underline;
-  }
+.center {
+  text-align: center;
+  font-size: 250%;
+}
 
-  h3 {
-    color: rgb(0, 0, 0);
-    font-weight:450;
-  }
+.mini-center {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
 
-  p {
-    color: rgb(0, 0, 0);
-  }
+.shadow {
+  text-shadow:1px 1px 2px #000000 ;
+}
 
-   /* unvisited link */
-  a:link {
-    color: rgb(168, 9, 154);
-    text-decoration: underline;
-  }
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight:600 ;
+  font-size: 175% ;
+  text-decoration: underline;
+}
 
-  /* visited link */
-  a:visited {
-    color: rgb(168, 9, 154);
-    text-decoration: underline;
-  }
+h3 {
+  color: rgb(0, 0, 0);
+  font-weight:450;
+}
 
-  /* mouse over link */
-  a:hover {
-    color: rgb(255, 2, 128);
-    text-decoration: underline;
-  }
+p {
+  color: rgb(0, 0, 0);
+}
 
-  /* selected link */
-  a:active {
-    color: rgb(169, 0, 67);
-    text-decoration: underline;
-  } 
+a {
+  text-shadow:1px 1px 2px #000000 ;
+}
 
-  li {
-    color: rgb(0, 0, 0);
-  }
+/* unvisited link */
+a:link {
+  color: rgb(139, 111, 232);
+  text-decoration: underline;
+}
 
-  #header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
+/* visited link */
+a:visited {
+  color: rgb(139, 111, 232);
+  text-decoration: underline;
+}
 
-  table {
-    border: 3px solid black;
-    table-layout: fixed;
-    width: 600px;
-  }
+/* mouse over link */
+a:hover {
+  color: rgb(255, 2, 128);
+  text-decoration: underline;
+}
 
-  td {
-    border: 2px solid black;
-    overflow: hidden;
-  }
+/* selected link */
+a:active {
+  color: rgb(169, 0, 67);
+  text-decoration: underline;
+} 
+
+li {
+  color: rgb(0, 0, 0);
+}
+
+#header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+table {
+  border: 3px solid black;
+  table-layout: fixed;
+  width: 600px;
+}
+
+td {
+  border: 2px solid black;
+  overflow: hidden;
+}
 
 tfoot {
   background-color: #000000;
