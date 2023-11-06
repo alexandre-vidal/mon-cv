@@ -1,2 +1,2 @@
 # 8_runtrack_html
-Test
+Rendu du CV aux formats HTML et PDF, avec une version anglais incluse.
